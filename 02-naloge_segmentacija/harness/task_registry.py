@@ -12,8 +12,9 @@ from naloge_segmentacija import (
     izrezi_regije,
     detekcija_4_kotnikov,
     detekcija_4_kotnikov_adaptivno,
-    pripravi_filter_plus, detekcija_plus,
+    detekcija_plus
 )
+from naloga_segmentacija.pripravi_filter_plus import pripravi_filter_plus
 
 from .io import to_gray_f32, read_image
 from .task import Task
